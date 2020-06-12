@@ -1,0 +1,95 @@
+Inventaire
+#Menu {
+    background-color: aqua;
+}
+    #Menu ul {
+    padding:0;
+    margin:0;
+    list-style-type:none;
+    background-color: white;
+    }
+    #Menu li {
+    margin-left:2px;
+    float:left; /*pour IE*/
+    }
+    /* #Menu ul li a {
+    display:block;
+    float:left;   
+    width:48VW;
+    background-color:#6495ED;
+    color:black;
+    text-decoration:none;
+    text-align:center;
+    padding:5px;
+    border:2px solid;
+    /*pour avoir un effet "outset" avec IE :*/
+    /* border-color:#DCDCDC #696969 #696969 #DCDCDC; */
+    /* } */ 
+    #Menu ul li a:hover {
+    background-color:#D3D3D3;
+    border-color:#696969 #DCDCDC #DCDCDC #696969;
+    } 
+
+#BarresInterraction {
+    background-color: white;
+    padding-top: 2.5em;   
+}
+
+    #AjoutPiece{
+        border:2px solid;
+        border-radius: 16px;
+        width: 50VW;
+        display: inline-block;
+        padding-left: 10px;
+        margin-left: 1px;
+    }
+
+    #AjoutObjet{
+        border:2px solid;
+        border-radius: 16px;
+        width: 49VW;
+        float: left;
+        padding-left: 10px;
+    }
+
+    #BarreDeRecherche{
+        display: inline-block;
+        width:1040px;
+        height:auto;
+        padding-left: 10px;
+        border-bottom: 1px solid;
+        border-color: gray
+    }
+    .formulaire               {display:inline-block;}
+    .formulaire .champ       {
+        width:600px;
+        height:35px
+        ;background-color: lightgray;
+    }
+
+
+
+/*ToDoList*/
+
+#TacheNonRecurrentes {
+    background-color: rgb(156, 40, 94);
+}
+
+
+/*AjouterTache*/
+#AjoutTache {
+    background-color: rgb(206, 115, 11);
+}
+#Page2{
+    display: none;
+}
+#b1{
+    width: 50vw;
+}
+#b2{
+    width: 50vw;
+}
+#tableau{
+    border: 1px;
+    border-style: solid;
+}
